@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using FizzBuzz.Interfaces;
 
 namespace FizzBuzz
 {
-    public class ArrayManagement
+    public class ArrayManagement : IArrayManagement
     {
         private List<int> _values = new List<int>();
 
