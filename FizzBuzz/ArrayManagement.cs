@@ -19,7 +19,7 @@ namespace FizzBuzz
             }
         }
 
-        public int Size()// for testing
+        public int Size()
         {
             return _values.Count;
         }
